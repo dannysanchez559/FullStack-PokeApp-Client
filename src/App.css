@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.Nav {
+  background-color: #8e44ad;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.Nav > ul {
+  margin: 20px auto;
+  display: flex;
+  width: 300px;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+.Nav > ul > li {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  padding: 5px 15px;
+}
+
+.Nav > ul > li > a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.Nav > ul > li > a:hover {
+  color: #9b59b6;
+  cursor: pointer;
+}
